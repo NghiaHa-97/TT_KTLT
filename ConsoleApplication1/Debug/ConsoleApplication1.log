@@ -1,0 +1,15 @@
+﻿  ConsoleApplication1.cpp
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(33): warning C4018: '<': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(52): warning C4018: '<': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(57): warning C4018: '<': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(61): warning C4018: '<': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(74): warning C4018: '<': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(79): warning C4018: '<': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(83): warning C4018: '<': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(91): warning C4018: '<': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(473): warning C4390: ';': empty controlled statement found; is this the intent?
+  Source.cpp
+  Generating Code...
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(183): warning C4715: 'kTDate': not all control paths return a value
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\consoleapplication1\consoleapplication1.cpp(373): warning C4715: 'soSanhHoTen': not all control paths return a value
+  ConsoleApplication1.vcxproj -> D:\Tai Lieu\Thuc Tap Ky Thuat Lap Trinh\TTKTLT_QLSV\Debug\ConsoleApplication1.exe

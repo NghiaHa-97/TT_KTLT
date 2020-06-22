@@ -1,3 +1,4 @@
 #pragma once
 #include"DoHoa.h"
-void menuThongKe(int luaChon);
+#include"KhungChucNang.h"
+void thongKe();

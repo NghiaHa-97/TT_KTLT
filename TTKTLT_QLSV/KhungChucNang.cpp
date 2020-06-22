@@ -1,12 +1,9 @@
 #include"KhungChucNang.h"
-#include"ThemHoSoSV.h"
-#include"InDanhSach.h"
-#include"SapXep.h"
-#include"TimKiem.h"
-#include"ThongKe.h"
+
 void chonChucNang(int LuaChon) {
 	fflush(stdin);
 	textcolor(11);
+	
 	menuStart(LuaChon);
 	while (1) {
 		char phim = _getch();
@@ -29,23 +26,23 @@ void chonChucNang(int LuaChon) {
 			switch (LuaChon) {
 				case 1:
 					xoaManHinh();
-					menuThemHoSo(1);
+					themHoSo();
 					break;
 				case 2:
 					xoaManHinh();
-					keKhungInDanhSach();
+					InDanhSach(danhSachSV,soSv);
 					break;
 				case 3:
 					xoaManHinh();
-					menuKieuSX(1);
+					SapXep(1);
 					break;
 				case 4:
 					xoaManHinh();
-					menuTimKiem(1);
+					timKiem(1);
 					break;
 				case 5:
 					xoaManHinh();
-					menuThongKe(1);
+					thongKe();
 					break;
 				case 6:
 					exit(0);
@@ -60,6 +57,8 @@ void chonChucNang(int LuaChon) {
 }
 
 void menuStart(int LuaChon) {
+	
+
 	resizeConsole(1200, 650);
 	textcolor(2);
 	gotoxy(31, 2);	cout << "===================================================";

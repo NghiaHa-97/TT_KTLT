@@ -2,10 +2,13 @@
 //
 
 #include"KhungChucNang.h"
-#include"SinhVien.h"
+
 
 int main()
 {
+	
+	docFile();
+
 	chonChucNang(1);
 	
 	

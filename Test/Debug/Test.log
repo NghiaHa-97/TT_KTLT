@@ -1,0 +1,7 @@
+﻿  Test.cpp
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\test\test.cpp(212): warning C4018: '<=': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\test\test.cpp(243): warning C4018: '<=': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\test\test.cpp(257): warning C4018: '<': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\test\test.cpp(260): warning C4018: '<': signed/unsigned mismatch
+d:\tai lieu\thuc tap ky thuat lap trinh\ttktlt_qlsv\test\test.cpp(94): warning C4715: 'soSanh': not all control paths return a value
+  Test.vcxproj -> D:\Tai Lieu\Thuc Tap Ky Thuat Lap Trinh\TTKTLT_QLSV\Debug\Test.exe

@@ -89,7 +89,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -121,7 +121,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -151,7 +151,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Date.cpp" />
     <ClCompile Include="DoHoa.cpp" />
+    <ClCompile Include="HeaderDuLieu.cpp" />
     <ClCompile Include="InDanhSach.cpp" />
     <ClCompile Include="KhungChucNang.cpp" />
     <ClCompile Include="SapXep.cpp" />
@@ -164,6 +166,7 @@
   <ItemGroup>
     <ClInclude Include="Date.h" />
     <ClInclude Include="DoHoa.h" />
+    <ClInclude Include="HeaderDuLieu.h" />
     <ClInclude Include="InDanhSach.h" />
     <ClInclude Include="KhungChucNang.h" />
     <ClInclude Include="SapXep.h" />
